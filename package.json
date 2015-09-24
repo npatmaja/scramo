@@ -29,6 +29,7 @@
   "homepage": "https://github.com/npatmaja/scramo",
   "devDependencies": {
     "chai": "^3.3.0",
+    "coveralls": "^2.11.4",
     "istanbul": "^0.3.20",
     "mocha": "^2.3.3",
     "mockery": "^1.4.0",
