@@ -1,7 +1,7 @@
 # Scramo
 [![npm](https://img.shields.io/npm/v/scramo.svg?style=flat-square)](https://www.npmjs.com/package/scramo) [![Travis](https://img.shields.io/travis/npatmaja/scramo.svg?style=flat-square)](https://github.com/npatmaja/scramo) [![Coveralls](https://img.shields.io/coveralls/npatmaja/scramo.svg?style=flat-square)](https://github.com/npatmaja/scramo)   [![David](https://img.shields.io/david/npatmaja/scramo.svg?style=flat-square)](https://github.com/npatmaja/scramo)  [![David](https://img.shields.io/david/dev/npatmaja/scramo.svg?style=flat-square)](https://github.com/npatmaja/scramo)
 
-Scramo is a simple config-driven web scraper module for Node.js. Being config-driven, one must provide a configuration what element and which data should be scraped from a given URL. Scramo returns a [promise](https://github.com/kriskowal/q) to deal with the asynchronous execution. However, callback is also supported.
+Scramo is a simple config-driven web scraper module for Node.js. Being config-driven, one must provide a configuration of what element and which data should be scraped from a given URL. Scramo returns a [promise](https://github.com/kriskowal/q) to deal with the asynchronous execution. However, callback is also supported.
 
 # Install
 
