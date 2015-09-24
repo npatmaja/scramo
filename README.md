@@ -1,3 +1,6 @@
+# Scramo
+[![Build Status](https://travis-ci.org/npatmaja/scramo.svg)](https://travis-ci.org/npatmaja/scramo) [![Coverage Status](https://coveralls.io/repos/npatmaja/scramo/badge.svg?branch=master&service=github)](https://coveralls.io/github/npatmaja/scramo?branch=master)
+
 Scramo is a config driven simple scraper module for Node.js.
 
 # Install
