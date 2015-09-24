@@ -1,6 +1,6 @@
 {
   "name": "scramo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Simple web scraping module for fun and profit",
   "main": "index.js",
   "scripts": {
