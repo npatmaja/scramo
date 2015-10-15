@@ -23,6 +23,10 @@ function prepareSuite1() {
         },
         {
           name: 'text',
+        },
+        {
+          name: 'html',
+          attr: 'html'
         }
       ]
     }
@@ -86,7 +90,10 @@ describe('parser', function() {
       expect(result).to.have.deep.property('collection1[1].postedTime', '468997667');
       expect(result).to.have.deep.property('collection1[1].username', 'dummy2');
       expect(result).to.have.deep.property('collection1[1].text', 'text content of the element 2');
-
+      expect(result).to
+        .have.deep.property('collection1[0].html', '<span class="dummy-class">text content of the element</span>');
+      expect(result).to
+        .have.deep.property('collection1[1].html', '<span class="dummy-class">text content of the element 2</span>');
       done();
     });
   });
