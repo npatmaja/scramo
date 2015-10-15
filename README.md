@@ -58,7 +58,8 @@ The config should consist of the following:
 - **properties**: a list of property to tell Scramo what property of
 - the selected element to be scraped:
   - **name**: the name that is used as the key of the scraped value in the result
-  - **attr**: the element's attribute that will be scraped. When nothing is specified, then the element's text will be returned
+  - **attr**: the element's attribute that will be scraped. When nothing is specified, then the element's text will be returned. `html` is the special value to scrape the
+  inner html of the given element
 
 # License
 MIT
